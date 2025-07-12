@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
         hard: { rows: 16, cols: 30, mines: 99 }
     };
 
-    let currentDifficulty = 'medium';
+    let currentDifficulty = 'easy';
     let board = [];
     let isGameOver = false;
     let isFirstClick = true;
